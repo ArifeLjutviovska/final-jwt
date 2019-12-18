@@ -4,13 +4,15 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/login-register
+
 server:
-  - port: 9443
-    ssl:
-      key-store: /home/ec2-user/server.p12
-      key-store-password: 1234
-      keyStoreType: PKCS12
-      key-alias: tomcat
+  port: 9443
+  ssl:
+    key-store: /home/ec2-user/server.p12
+    key-store-password: 1234
+    keyStoreType: PKCS12
+    key-alias: tomcat
+
 
 grokonez:
   - app:
