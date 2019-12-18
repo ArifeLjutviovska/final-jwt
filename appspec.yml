@@ -8,10 +8,10 @@ files:
 server:
   port: 9443
   ssl:
-    key-store: /home/ec2-user/server.p12
-    key-store-password: 1234
+    key-store: src/main/resources/bootsecurity.p12
+    key-store-password: bootsecurity
     keyStoreType: PKCS12
-    key-alias: tomcat
+    key-alias:  bootsecurity
 
 
 grokonez:
