@@ -7,7 +7,7 @@ files:
 server:
   - port: 8443
     ssl:
-      key-store: /home/ec2-user/keystore.pkcs12
+      key-store: /home/ec2-user/keystore.p12
       key-store-password: 1234
       keyStoreType: PKCS12
       key-alias: tomcat
