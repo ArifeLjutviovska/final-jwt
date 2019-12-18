@@ -8,7 +8,7 @@ files:
 server:
   port: 9443
   ssl:
-    key-store: src/main/resources/bootsecurity.p12
+    key-store: /home/ec2-user/login-register/src/main/resources/bootsecurity.p12
     key-store-password: bootsecurity
     keyStoreType: PKCS12
     key-alias:  bootsecurity
