@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd /home/ec2-user/login-register
-java -jar target/spring-boot-jwt-authentication-postgresql-0.0.1-SNAPSHOT.jar
+sudo /usr/bin/java -jar -Dserver.port=8090 \
+    *.jar > /dev/null 2> /dev/null < /dev/null &
